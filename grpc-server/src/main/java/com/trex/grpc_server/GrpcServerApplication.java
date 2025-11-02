@@ -9,5 +9,5 @@ public class GrpcServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GrpcServerApplication.class, args);
 	}
-
+    //Test GPG Verified Commit - removed
 }
