@@ -1,0 +1,9 @@
+
+
+service StockTradingService{
+  rpc getStockPrice(StockRequest) returns (StockResponse);
+}
+
+message StockRequest{}
+
+message StockResponse{}
