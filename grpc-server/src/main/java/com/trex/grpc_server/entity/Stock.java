@@ -1,4 +1,4 @@
-package com.trex.grpc_server.service.entity;
+package com.trex.grpc_server.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ public class Stock {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer id;
+    private Long id;
 
     @Column(name = "stock_symbol", length = 10, unique = true, nullable = false)
     private String stockSymbol;
